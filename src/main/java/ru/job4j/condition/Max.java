@@ -9,3 +9,4 @@ public class Max {
         System.out.println(Max.max(2, 1));
     }
 }
+
