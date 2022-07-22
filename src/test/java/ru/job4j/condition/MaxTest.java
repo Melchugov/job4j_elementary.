@@ -9,10 +9,11 @@ public class MaxTest {
     public void whenMax1To2Then() {
     int left = 1;
     int right = 2;
-    int result = Max.max(left , right);
+    int result = Max.max(left, right);
     int expected = 2;
         Assert.assertEquals(result , expected);
     }
+
     @Test
     public void whenMax2To5Then() {
         int left = 2;
@@ -21,6 +22,7 @@ public class MaxTest {
         int expected = 5;
         Assert.assertEquals(result, expected);
     }
+
     @Test
     public void whenMax7To7Then() {
         int left = 7;
