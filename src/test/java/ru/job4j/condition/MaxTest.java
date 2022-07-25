@@ -14,9 +14,9 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax2To5Then() {
-        int left = 2;
-        int right = 5;
+    public void whenMax5To2Then() {
+        int left = 5;
+        int right = 2;
         int result = Max.max(left, right);
         int expected = 5;
         Assert.assertEquals(result, expected);
